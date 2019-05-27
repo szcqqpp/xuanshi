@@ -1,0 +1,30 @@
+.context{
+    width: 750px;
+}
+.nav{
+    height: 60px;
+    line-height: 60px;
+}
+.nav .navin .logo{
+    height: 40px;
+    padding: 10px 0;
+    margin: 0;
+    margin-left: 15px;
+}
+.nav .navin .navcon{
+    width: 600px;
+}
+.nav .navin .navcon li::after{
+    bottom: 10px;
+}
+.main .list{
+    padding: 0 7px;
+}
+.main .list .title h2{
+    font-size: 16px;
+    background-size: 3px 18px;
+    line-height: 20px;
+}
+.row .con{
+    width: 50%;
+}

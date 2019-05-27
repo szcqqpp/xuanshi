@@ -1,0 +1,53 @@
+.context{
+    width: 100%;
+}
+.nav .navin .navcon{
+    width: 100%;
+}
+.nav{
+    height: 50px;
+}
+.nav .navin .logo{
+   height: 30px;
+}
+.nav .navin .navcon li{
+    clear: both;
+    width: 100%;
+    line-height: 40px;
+    text-align: left;
+    font-size: 14px;
+}
+.nav .navin .navcon{
+    border-top: 1px solid #e7e7e7
+}
+.nav .navin .navcon li a{
+    padding-left: 15px;
+}
+.nav .navin .navcon li::after{
+    bottom: 5px;
+    left: 0;
+    height: 1px;
+    transform: translateX(0);
+}
+.nav .navin .navcon li:hover::after{
+    width: 100%;
+}
+.row{
+    margin: 0;
+}
+#an{
+    display: block;
+}
+.main .list{
+    width: 96%;
+    padding: 0;
+    margin: 15px auto;
+    float: none;
+}
+.main .list .listimg{
+    margin: 0;
+}
+.cd{
+    width: 96%;
+    margin: 0 auto;
+}

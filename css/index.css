@@ -74,12 +74,21 @@ body{
 .nav{
     height: 102px;
     background: #fff;
+    line-height: 102px;
+}
+.nav .navin{
+    background: #fff;
 }
 .nav .navin .logo{
     float: left;
     width: 110px;
     height: 100%;
+    line-height: 0;
     margin: 25px 15px;
+}
+.nav .navin .logo img{
+    /* width: 100%; */
+    height: 100%;
 }
 .nav .navin .navcon{
     float: right;
@@ -90,7 +99,6 @@ body{
 .nav .navin .navcon li{
     float: left;
     width: 12.5%;
-    line-height: 102px;
     position: relative;
     font-size: 15px;
     text-align: center;
@@ -127,7 +135,7 @@ body{
     height: auto;
     position: relative;
     left: 0;
-    transition: all 1s ease 0s;
+    transition: all 0.8s ease 0s;
 }
 .banner .tu::after{
     content: "";
@@ -289,4 +297,13 @@ body{
     opacity: 1;
     z-index: 10;
     cursor: pointer;
+}
+#an{
+    width: 24px;
+    height: 16px;
+    background: url(../images/but.png) no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    display: none;
 }

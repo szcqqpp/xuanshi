@@ -37,4 +37,7 @@ $(function () {
             time = setInterval(next, 2000);
         }
     )
+    $("an").click(function () {
+
+    })
 })
