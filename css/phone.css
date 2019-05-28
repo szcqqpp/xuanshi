@@ -20,16 +20,16 @@
 .nav .navin .navcon{
     border-top: 1px solid #e7e7e7
 }
-.nav .navin .navcon li a{
+.nav .navin .navcon li>a{
     padding-left: 15px;
 }
-.nav .navin .navcon li::after{
+.nav .navin .navcon li a::after{
     bottom: 5px;
     left: 0;
     height: 1px;
     transform: translateX(0);
 }
-.nav .navin .navcon li:hover::after{
+.nav .navin .navcon li>a:hover::after{
     width: 100%;
 }
 .row{
@@ -50,4 +50,13 @@
 .cd{
     width: 96%;
     margin: 0 auto;
+}
+.head .topin .tuo{
+    padding:  0 3px;
+}
+.ret{
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    position: static;
 }

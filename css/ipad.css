@@ -14,7 +14,7 @@
 .nav .navin .navcon{
     width: 600px;
 }
-.nav .navin .navcon li::after{
+.nav .navin .navcon li a::after{
     bottom: 10px;
 }
 .main .list{
@@ -27,4 +27,7 @@
 }
 .row .con{
     width: 50%;
+}
+.ret{
+    width: 750px;
 }
